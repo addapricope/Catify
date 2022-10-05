@@ -1,0 +1,160 @@
+<html lang="en">
+    <head>
+        <title>Catify</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <!-- NAV BAR -->
+
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" id="logo">Catify</a>
+                
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#welcome">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prices">Prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                </div>
+             </div>
+        </nav>
+
+        <!-- FRONT-PAGE -->
+        <section class="first-page" id="welcome">
+        <div class="row front-page">
+            <div class="title-component1 col-lg-6 col-md-6">
+                <h1 id="white-font">Your cat deserves to listen to good music!</h1>
+                <button id="download" type="button" class="btn btn-lg btn-light"><i class="fab fa-apple"></i>  Download</button>
+                <button id="download" type="button" class="btn btn-lg btn-dark"><i class="fab fa-google-play"></i>  Download</button>
+            </div>
+            <div class="title-component2 col-lg-6 col-md-6">
+                <img class="cover-image"src="cover.png" alt="phone-mockup">
+            </div>
+        </div>     
+        </section>
+
+        <!-- SECOND PAGE - CARDS -->
+
+        <section class="second-page" id="prices">
+            <div class="choose-subscription">
+                <h2 id="second-page-header">Choose your subscription</h2>
+                <p id="description">Listen unlimited on your phone, laptop and other devices.</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card" id="card">
+                        <div class="card-header" id="card-header">
+                          Free
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">0$/month</h5>
+                          <p class="card-text">100+ playlists</p>
+                          <p class="card-text">Recommendations</p>
+                          <p class="card-text">Share function</p>
+                          <a href="#" class="btn btn-dark">Get it now</a>
+                        </div>
+                      </div>
+                      </div>
+
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="card" id="card">
+                        <div class="card-header" id="card-header">
+                          Pro
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">5$/month</h5>
+                          <p class="card-text">1000+ playlists</p>
+                          <p class="card-text">Personalized ecommendations</p>
+                          <p class="card-text">Music quality</p>
+                          <a href="#" class="btn btn-dark">Get it now</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card" id="card">
+                        <div class="card-header" id="card-header">
+                          Master+
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title">10$/month</h5>
+                          <p class="card-text">5000+ playlists</p>
+                          <p class="card-text">Offline function</p>
+                          <p class="card-text">Live sessions</p>
+                          <a href="#" class="btn btn-dark">Get it now</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- THIRD PAGE - TESTIMONIALS -->
+
+        <section class="third-page" id="testimonials">
+            <h2 id="testimonals-description">What about our customers?</h2>
+            <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+                    <!-- <li data-target="#testimonial-carousel" data-slide-to="2"></li> -->
+                  </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active container-fluid">
+                    <img class="testimonial-image" src="t1.png">
+                  </div>
+                  <div class="carousel-item container-fluid">    
+                    <img class="testimonial-image" src="t2.png" alt="lady-profile">   
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="container-fluid" id="contact">
+              <i class="social-icon fab fa-facebook-f"></i>
+              <i class="social-icon fab fa-twitter"></i>
+              <i class="social-icon fab fa-instagram"></i>
+              <i class="social-icon fas fa-envelope"></i>
+              <p id="copyright">© Copyright 2022 Catify</p>
+            </div>
+          </footer>
+
+    </body>    
+</html>

@@ -1,0 +1,143 @@
+body{
+    font-family:'Montserrat';
+    scroll-behavior: smooth;
+}
+
+
+/* FRONT PAGE */
+
+#logo{
+    font-family: 'Kanit';
+    font-size: 2rem;
+    margin-left:2rem;
+}
+
+.front-page{
+    background-color: #A1C298;
+    padding:5% 10% 3%;
+}
+
+.title-component1{
+padding-top: 10%;
+}
+
+.cover-image{
+    margin-left:2.2rem;
+    transform: rotate(18deg);
+}
+
+.btn{
+    margin:10% 3% 5% 0;
+}
+
+#white-font{
+    color:white;
+    font-size:3rem;
+}
+@media (max-width:992px){
+    #logo{
+        font-size: 1.5rem;
+        margin-left:1rem;
+    }
+
+    #white-font{
+        font-size:2.7rem;
+    }
+
+    .cover-image{
+        height:25rem;
+        width:auto;
+        transform: rotate(0deg);
+    }
+
+    #download{
+        font-size:18px;
+        height:45px;
+    }
+
+    #card{
+        margin:10px;
+    }
+
+    
+}
+
+@media (max-width:764px){
+    .first-page{
+        text-align:center;
+    }
+   
+    #white-font{
+        font-size:2rem;
+    }
+
+    .cover-image{
+        height:25rem;
+        width:auto;
+        transform: rotate(0deg);
+    }
+
+    #download{
+        font-size:15px;
+        height:40px;
+    }
+
+}
+
+/* SECOND PAGE */
+
+.second-page{
+    background-color: #FBF2CF;
+    padding:5% 10% 15%;
+    text-align: center;
+}
+
+#card-header{
+    font-size:2rem;
+    font-weight: bold;
+    background-color: #C6EBC5;
+}
+.choose-subscription{
+    margin-bottom:10%;
+}
+
+#description{
+    font-size:20px;
+    color:rgb(183, 190, 181);
+}
+
+/* THIRD PAGE  */
+
+.testimonial-image{
+    /* position:relative;
+    margin:3rem 7rem; */
+
+    width:70%;
+    height:auto;
+}
+
+.third-page{
+    background-color: #FA7070;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 10rem;
+}
+#testimonals-description{
+    color:white;
+    padding:3rem;
+}
+
+/* FOOTER */
+
+#footer{
+    text-align:center;
+    background-color: #C6EBC5;
+    padding-top:3rem;
+}
+#copyright{
+    margin:2rem 0 0;
+    font-size:1.3rem;
+}
+.social-icon{
+   margin:13px;
+}
